@@ -15,7 +15,7 @@ public:
     friend std::istream& operator>>(std::istream& is, Robot& robot);
 };
 
-// Overload << operator for output
+// Operator for std::cout (Understanding the )
 std::ostream& operator<<(std::ostream& os, const Robot& robot) {
     os << "Head: " << robot.headName << "\n";
     os << "Body: " << robot.bodyName << "\n";
